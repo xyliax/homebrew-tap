@@ -2,9 +2,9 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Jungle < Formula
-  desc ""
+  desc "Jungle Game Release TEST-0.0.1"
   homepage ""
-  url "https://github.com/xyliax/Jungle/releases/download/test-developers/Jungle.tar.gz"
+  url "https://github.com/xyliax/Jungle/releases/download/test-developers/jungle-app.tar.gz"
   version "TEST-0.0.1"
   sha256 ""
   license ""
