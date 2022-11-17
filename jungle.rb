@@ -6,7 +6,7 @@ class Jungle < Formula
   homepage ""
   url "https://github.com/xyliax/Jungle/releases/download/test-developers/jungle-app.tar.gz"
   version "TEST-0.0.1"
-  sha256 ""
+  sha256 "cd5b656f70f328248ca7925dd3aee99e6a3186b3b6fe6d4a44178413758f3809"
   license ""
 
   # depends_on "cmake" => :build
