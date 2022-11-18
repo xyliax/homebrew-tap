@@ -2,21 +2,15 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Jungle < Formula
-  desc "Jungle Game Release TEST-0.0.1"
+  desc "Jungle Game Release v1.0.0"
   homepage ""
-  url "https://github.com/xyliax/Jungle/releases/download/test-developers/jungle-app.tar.gz"
-  version "TEST-0.0.1"
-  sha256 "d54d62fadae3a4f2c1966addbe831496778c0dd08d6cbe07f8ada4911f8f23cf"
+  url "https://github.com/xyliax/Jungle/releases/download/release/jungle-app.tar.gz"
+  version "v0.0.1"
+  sha256 "1d17c183cfd76391577bf2e4b8f27400d455c87dbf73526e247001090bf3318b"
   license ""
 
-  # depends_on "cmake" => :build
-
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     bin.install "jungle-app"
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
   test do
