@@ -9,7 +9,6 @@ class Jungle < Formula
   sha256 "9720054a6e654f099c0f501ae497955dc328fc6270a9ad15aaee5c78db7e18d9"
   license ""
 
-  depends_on "java"
 
   def install
     bin.install "jungle-app"
