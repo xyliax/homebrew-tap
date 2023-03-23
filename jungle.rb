@@ -5,8 +5,8 @@ class Jungle < Formula
   desc "Jungle Game Release v1.0.0"
   homepage ""
   url "https://github.com/xyliax/Jungle/releases/download/release/jungle-app.tar.gz"
-  version "v0.0.1"
-  sha256 "1d17c183cfd76391577bf2e4b8f27400d455c87dbf73526e247001090bf3318b"
+  version "v0.1.1"
+  sha256 "9720054a6e654f099c0f501ae497955dc328fc6270a9ad15aaee5c78db7e18d9"
   license ""
 
   depends_on "java"
